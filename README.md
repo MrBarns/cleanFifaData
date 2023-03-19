@@ -18,6 +18,13 @@ __Planning__ then involved deciding how best to transform the column from what i
 
 |Name|Description|
 |---|---|
-|Raw|
-|Working_on|
-|Worked_on|
+|Raw|Contains versions of the raw dataset. v2 was cleaned in this case
+|Working_on|Contains instances of the dataset as saved during the cleaning process|
+|Worked_on|Contains the final cleaned version of the dataset
+|CleaningDates.ipynb|It mostly works on columns carrying date related values 
+|CleanMoney.ipynb|It mostly works on columns describing monetary values
+|CleanPosition.ipynb|This mostly works on columns related to a player's role on the pitch|
+|CleanStats.ipynb|It mostly works on columns relating to a player's attribute statistics
+|Coleslaw.ipynb|This defines the coleslaw function for convenient use throughout the cleaning process
+|DataCleaning.ipynb|This is the beginning of the cleaning process proper
+|Inspect_Strategize.ipynb|This details the process of inspecting the database and developing a strategy for the curation process.
